@@ -1,0 +1,12 @@
+# File: modules/custom/personmodule/personmodule.routing.yml
+
+personmodule.import_form:
+  path: '/person/import'
+  defaults:
+    _form: '\Drupal\personsmodule\Form\PersonImportForm'
+    _title: 'Import Persons'
+  requirements:
+    _permission: 'upload person data'
+
+
+

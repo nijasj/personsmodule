@@ -1,0 +1,18 @@
+
+# persons module Entity routing definition
+entity.persons_module.canonical:
+  route_name: entity.persons_module.canonical
+  base_route: entity.persons_module.canonical
+  title: 'View'
+
+entity.persons_module.edit_form:
+  route_name: entity.persons_module.edit_form
+  base_route: entity.persons_module.canonical
+  title: 'Edit'
+
+entity.persons_module.delete_form:
+  route_name:  entity.persons_module.delete_form
+  base_route:  entity.persons_module.canonical
+  title: Delete
+  weight: 10
+

@@ -1,0 +1,24 @@
+
+administer persons_module entities:
+  title: 'Administer person entities'
+
+view published persons_module entities:
+  title: 'View published person entities'
+
+view unpublished persons_module entities:
+  title: 'View unpublished person entities'
+
+add persons_module entities:
+  title: 'Create new person entities'
+
+delete persons_module entities:
+  title: 'Delete person entities'
+
+edit persons_module entities:
+  title: 'Edit person entities'
+
+upload person data:
+  title: 'Upload Person Data'
+  description: 'Allow users with the FileUploader role to upload person data.'
+  restrict access: true
+

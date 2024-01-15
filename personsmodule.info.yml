@@ -1,0 +1,5 @@
+name: 'Person entity'
+type: module
+description: 'Create custom entities for person'
+package: 'Custom Module'
+core_version_requirement: ^9 || ^10

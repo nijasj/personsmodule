@@ -1,0 +1,9 @@
+
+# Person menu items definition
+entity.persons_module.collection:
+  title: 'Person'
+  route_name: entity.persons_module.collection
+  description: 'List person entities'
+  parent: system.admin_structure
+  weight: 101
+
